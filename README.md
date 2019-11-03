@@ -48,3 +48,21 @@ mapa, (trarei mais sobre mapa posteriormente), voltando ao circulo... Com o desa
 <b><i>ENGLISH: </b></i>
 
 You will generate circles on the map similar to the way you generate circles usually, but as a state + _ID. Each time you click on the screen, the application measures the difference of the clicked location and the circles, if it is smaller than the circle radius next to the click, means that you clicked inside, then it will return to the state with the circle id, and at this point you can do whatever you want with the circle, as in the example, which changes color, or display some information related to the circle.
+
+  - [ ] Run npm install -> install node_modules + dependencies.
+                          OR
+  - [ ] Run yarn -> install node_modules + dependencies.
+                        
+**IMPORTANT:**                        
+Remember to make this project as Class.
+
+```
+  class App extends Component {
+    ..
+  }  
+
+  ...
+
+  export default App;
+  
+```       
