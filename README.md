@@ -9,11 +9,11 @@
 <h4> 
   Há algum tempo, tive a necessidade de criar diversas áreas circulares em um mapa,
 com o objetivo de ao clica-las, aparecer um determindo texto/informação. 
-  Decidi usar a lib do <b>react-native-maps</b>, o <b>EXPO</b> para criar o projeto 
+  Decidi usar a lib do react-native-maps, o EXPO para criar o projeto 
 e a api do google, justamente pela facilidade e possibilidade de personalização do 
 mapa, (trarei mais sobre mapa posteriormente), voltando ao circulo... Com o desafio citado acima, olhando a doc, achei a tag <circle /> e pensei que seria a melhor opção, porém a tag não tem a propriedade onPress, o que dificulta muito, sendo que a       <marker /> e <poligon /> tinham onPress e isso não fazia sentido pra mim, ou teria que criar um poligno com dezenas de pontos para ficar visivelmente redondo ou adicionar markers com uma imagem de um círculo, o que ficaria feio e pesado pela quantidade de pontos necessarios. 
 
-<h3><b>Circulos sem interação.</b></h3>
+<h3> <b>Circulos sem interação.</b> </h3>
 
   Caso necessite criar apenas circulos no mapa, sem interagir com eles, apenas a tag <circle/> e suas props é suficiente.
 
